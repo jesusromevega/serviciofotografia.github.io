@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios de Fotografía para Eventos</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo de la Empresa" class="logo" />
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="galeria">
+            <h2>Galería de Trabajos Anteriores</h2>
+            <div class="galeria-imagenes">
+                <img src="images/boda.jpg" alt="Ejemplo de foto 1" />
+                <img src="images/grado.jpg" alt="Ejemplo de foto 2" />
+                <img src="images/evento.jpg" alt="Ejemplo de foto 3" />
+            </div>
+            <div class="video">
+                <h3>Video de Nuestro Trabajo</h3>
+                <video controls>
+                    <source src="videos/ejemplo_video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <p>Ofrecemos servicios de fotografía para todo tipo de eventos, incluyendo cumpleaños, bodas, y graduaciones.</p>
+            <h3>Fotografía de Eventos</h3>
+            <p>Capturamos momentos especiales con la mejor calidad y profesionalismo.</p>
+            <h3>Reportajes Fotográficos</h3>
+            <p>Realizamos reportajes personalizados para cada cliente.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarrollado por Jesus Romero Vega</p>
+    </footer>
+</body>
+</html>
